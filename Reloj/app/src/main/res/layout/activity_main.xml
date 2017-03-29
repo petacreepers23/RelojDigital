@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.petacreepers23.reloj.MainActivity"
+    xmlns:customAttrs="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/relLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/negro"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:customAttrs="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <com.blogspot.petacreepers23.widget.CustomFontTextView
+            android:id="@+id/texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="90sp"
+            customAttrs:customFont="digital"
+            tools:ignore="HardcodedText" />
+
+        <!--
+        <com.blogspot.petacreepers23.widget.MyTexto
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="90sp"
+            android:id="@+id/texto"
+            />-->
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
